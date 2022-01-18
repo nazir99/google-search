@@ -12,6 +12,8 @@
   margin-top:20px;
   margin-left: auto;
   margin-right: auto;
+  color: #5b5b5b;
+
 }
 
 .button{
@@ -19,4 +21,7 @@
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  background-color: #4285f3;
+  color: #5b5b5b;
+  border: #1a5fd0;
 }
