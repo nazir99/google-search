@@ -10,7 +10,7 @@ img {
   width: 150px;
 }
 
-input {
+input.inputsearch {
   text-align: center;
   width: 100%;
   border-color: #c4c4c4;
@@ -38,7 +38,11 @@ button:hover {
 .results {
   font-family: Helvetica, Arial, sans-serif;
   width: 700px;
-  margin-left: 140px;
+  margin-left: 170px;
+}
+
+.result {
+  margin-bottom: 40px;
 }
 
 h2 {
@@ -47,12 +51,12 @@ h2 {
 
 .banner {
   display: grid;
-  grid-template-columns: 280px auto;
+  grid-template-columns: 150px auto;
+  border-bottom: solid #c4c4c4;
+  grid-gap: 20px;
 }
 
 form {
-  display: grid;
-  grid-template-columns: 700px 100px auto;
 }
 
 a.links {
@@ -71,18 +75,37 @@ li {
   display: inline;
   margin-right: 10px;
   padding-inline-start: 0px;
+  font-size: 12px;
+}
+
+ul {
+  padding-left: 0px;
 }
 
 img.results {
-  width: 140px;
+  width: 100%;
   margin-left: 0px;
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  padding-left: 5px;
 }
 
-button.results {
+button.rbutton {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+input.inputresults {
+  width: 400px;
   height: 40px;
-  width: auto;
+  padding-right: 20px;
+  border-radius: 20px;
 }
 
-input {
-  width: 700px;
+span.resultsnumber {
+  color: #5b5b5b;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: block;
 }
