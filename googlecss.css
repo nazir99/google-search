@@ -47,13 +47,42 @@ h2 {
 
 .banner {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 280px auto;
 }
 
-.searchbuton {
-  height: ~40px;
+form {
+  display: grid;
+  grid-template-columns: 700px 100px auto;
 }
 
-.googlebanner {
-  margin-right: ;
+a.links {
+  color: #1a0dab;
+}
+
+a.visited {
+  color: #660099;
+}
+
+p {
+  color: #5b5b5b;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+  padding-inline-start: 0px;
+}
+
+img.results {
+  width: 140px;
+  margin-left: 0px;
+}
+
+button.results {
+  height: 40px;
+  width: auto;
+}
+
+input {
+  width: 700px;
 }
