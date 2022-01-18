@@ -1,37 +1,44 @@
 .search {
-  width: 150px;
-  margin-top:100px;
+  width: 400px;
+  margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+
+img {
+  width: 150px;
 }
 
 input {
   text-align: center;
-  width: 400px;
+  width: 100%;
   border-color: #c4c4c4;
-  margin-top:20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 20px;
   color: #5b5b5b;
-
+  border-radius: 7px;
 }
 
 button {
-  width: ~80px
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   background-color: #4285f3;
-  color: #5b5b5b;
+  color: white;
   border: #1a5fd0;
+  border-radius: 3px;
 }
 
+button:hover {
+  color: #5998ff;
+}
+
+/* Results */
 
 .results {
   font-family: Helvetica, Arial, sans-serif;
   width: 700px;
   margin-left: 140px;
-
 }
 
 h2 {
@@ -44,9 +51,9 @@ h2 {
 }
 
 .searchbuton {
-  height: ~40px
+  height: ~40px;
 }
 
 .googlebanner {
-  margin-right:
+  margin-right: ;
 }
